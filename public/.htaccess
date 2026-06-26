@@ -1,0 +1,13 @@
+Options -Indexes
+RewriteEngine On
+
+# Redirect everything to index.php except real files/dirs
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.php [QSA,L]
+
+# Block access to hidden files
+<FilesMatch "^\.">
+    Order allow,deny
+    Deny from all
+</FilesMatch>

@@ -1,0 +1,115 @@
+ECOMMERCE/
+├── app/
+│   ├── Controllers/
+│   │   ├── Admin/
+│   │   │   ├── CategoryController.php
+│   │   │   ├── CouponController.php
+│   │   │   ├── DashboardController.php
+│   │   │   ├── OrderController.php
+│   │   │   ├── ProductController.php
+│   │   │   └── UserController.php
+│   │   ├── Auth/
+│   │   │   ├── LoginController.php
+│   │   │   ├── LogoutController.php
+│   │   │   └── RegisterController.php
+│   │   ├── CartController.php
+│   │   ├── CheckoutController.php
+│   │   ├── CompareController.php
+│   │   ├── HomeController.php
+│   │   ├── OrderController.php
+│   │   ├── ProductController.php
+│   │   ├── ProfileController.php
+│   │   ├── ReviewController.php
+│   │   └── WishlistController.php
+│   ├── Models/
+│   │   ├── Admin.php
+│   │   ├── Cart.php
+│   │   ├── Category.php
+│   │   ├── Coupon.php
+│   │   ├── Customer.php
+│   │   ├── Order.php
+│   │   ├── Payment.php
+│   │   ├── Product.php
+│   │   ├── Review.php
+│   │   ├── User.php
+│   │   └── Wishlist.php
+│   └── Views/
+│       ├── admin/
+│       │   ├── categories/
+│       │   │   ├── form.php
+│       │   │   └── list.php
+│       │   ├── coupons/
+│       │   │   ├── form.php
+│       │   │   └── list.php
+│       │   ├── orders/
+│       │   │   ├── detail.php
+│       │   │   └── list.php
+│       │   ├── products/
+│       │   │   ├── form.php
+│       │   │   └── list.php
+│       │   ├── users/
+│       │   │   ├── detail.php
+│       │   │   └── list.php
+│       │   └── dashboard.php
+│       ├── auth/
+│       │   ├── login.php
+│       │   └── register.php
+│       ├── cart/
+│       │   └── index.php
+│       ├── checkout/
+│       │   └── index.php
+│       ├── compare/
+│       │   └── index.php
+│       ├── errors/
+│       │   └── 404.php
+│       ├── home/
+│       │   └── index.php
+│       ├── layouts/
+│       │   ├── admin.php
+│       │   ├── auth.php
+│       │   └── main.php
+│       ├── order/
+│       │   ├── detail.php
+│       │   └── list.php
+│       ├── product/
+│       │   ├── _card.php
+│       │   ├── detail.php
+│       │   └── list.php
+│       ├── profile/
+│       │   └── index.php
+│       └── wishlist/
+│           └── index.php
+├── config/
+│   ├── config.php
+│   └── database.php
+├── core/
+│   ├── Controller.php
+│   ├── Database.php
+│   ├── Model.php
+│   ├── Router.php
+│   └── View.php
+├── db/
+│   ├── schema.sql
+│   ├── seed.php
+│   └── setup.php
+├── helpers/
+│   └── functions.php
+├── public/
+│   ├── assets/
+│   │   ├── css/
+│   │   │   ├── admin.css
+│   │   │   └── style.css
+│   │   ├── images/
+│   │   │   ├── no-image.png
+│   │   │   └── no-image.svg
+│   │   └── js/
+│   │       ├── admin.js
+│   │       └── main.js
+│   ├── .htaccess
+│   └── index.php
+├── storage/
+│   └── uploads/
+│       └── products/
+│           ├── product_6a08f37b28eff.jpg
+│           └── product_6a08f4081f783.webp
+└── .htaccess

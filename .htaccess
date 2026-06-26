@@ -1,0 +1,11 @@
+# If your web server's document root is set to ecommerce/ (not ecommerce/public/),
+# this file redirects all traffic to the public/ sub-directory.
+#
+# Recommended setup: point document root directly to ecommerce/public/ instead.
+
+Options -Indexes
+RewriteEngine On
+
+# If accessing the root, redirect to public/
+RewriteCond %{REQUEST_URI} !^/public/
+RewriteRule ^(.*)$ public/$1 [L,QSA]
