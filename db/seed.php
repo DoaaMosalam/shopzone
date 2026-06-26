@@ -743,6 +743,93 @@ $productsData = [
             ['Compatibility', 'PC, PlayStation, Nintendo Switch'],
         ],
     ],
+    // ─────────────────────────────────────────────────────────────────────────
+// PC Cases
+// ─────────────────────────────────────────────────────────────────────────
+
+    [
+        'info' => [
+            'NZXT H9 Flow',
+            7800.00,
+            'NZXT',
+            'كيس احترافي بزجاج مقوى وتدفق هواء ممتاز.',
+            12,
+            $catIds['PC Cases'],
+            'https://images.unsplash.com/photo-1587202372775-e229f172b9d7?w=500&q=80'
+        ],
+
+        'specs' => [
+            ['Type', 'Mid Tower'],
+            ['Motherboard', 'ATX / Micro-ATX / Mini-ITX'],
+            ['Fans Included', '4'],
+            ['Side Panel', 'Tempered Glass'],
+            ['GPU Clearance', '435 mm'],
+            ['Color', 'Black'],
+        ],
+    ],
+
+    [
+        'info' => [
+            'Corsair 4000D Airflow',
+            5200.00,
+            'Corsair',
+            'كيس بتدفق هواء ممتاز مناسب للألعاب.',
+            18,
+            $catIds['PC Cases'],
+            'https://images.unsplash.com/photo-1587202372616-b43abea06c2a?w=500&q=80'
+        ],
+
+        'specs' => [
+            ['Type', 'Mid Tower'],
+            ['Motherboard', 'ATX'],
+            ['Fans Included', '2'],
+            ['Side Panel', 'Tempered Glass'],
+            ['Front Panel', 'High Airflow'],
+            ['Color', 'White'],
+        ],
+    ],
+
+    [
+        'info' => [
+            'Lian Li O11 Dynamic EVO',
+            8900.00,
+            'Lian Li',
+            'كيس فاخر مناسب لتجميعات الألعاب والـ Water Cooling.',
+            10,
+            $catIds['PC Cases'],
+            'https://images.unsplash.com/photo-1591488320449-011701bb6704?w=500&q=80'
+        ],
+
+        'specs' => [
+            ['Type', 'Mid Tower'],
+            ['Motherboard', 'E-ATX / ATX'],
+            ['Side Panel', 'Tempered Glass'],
+            ['Radiator Support', '360 mm'],
+            ['GPU Clearance', '426 mm'],
+            ['Color', 'Black'],
+        ],
+    ],
+
+    [
+        'info' => [
+            'Cooler Master MasterBox TD500 Mesh',
+            4700.00,
+            'Cooler Master',
+            'كيس ألعاب مزود بثلاث مراوح RGB.',
+            15,
+            $catIds['PC Cases'],
+            'https://images.unsplash.com/photo-1591799265444-d66432b91588?w=500&q=80'
+        ],
+
+        'specs' => [
+            ['Type', 'Mid Tower'],
+            ['Fans Included', '3 ARGB'],
+            ['Motherboard', 'ATX'],
+            ['Side Panel', 'Tempered Glass'],
+            ['Cooling', 'High Airflow'],
+            ['Color', 'Black'],
+        ],
+    ],
 ];
 
 // ── 5. Insert products + specs + manages ─────────────────────────────────────
